@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color:#ccc;
+}
+.line{
+  width: 100%;
+  height: 50px;
+  background: #1a1a1a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem
+}
+.lagger{
+  /* background: red; */
+  margin: 10px;
+  height: 440px;
+}
+
+.Container{
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  grid-row-gap: 20px;
+}
+.card{
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  color: #000;
+}
+.card .header{
+   padding: .4rem;
+   color: #000;
+}
+.card .price{
+  padding: .4rem;
+  font-weight: bold;
+  color: #000;
+}
+.card .meta{
+  padding: .4rem;
+  color: #777
+}
+.image {
+  display: grid;
+  justify-content: center;
+}
+.image img{
+  width: 400px;
+  height: 200px;
+}
+.dax{
+  margin:0;
+  padding: 0;
+}
+.Big-bro {
+  width: 600px;
+  height: 400px;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,0.2);
+  margin:auto;
+  display: flex;
+}
+.maintain {
+    flex: 1;
+    width: 100%
+} 
+.main img{
+  width: 200px;
+  height: 300px;
+}
+.downLine{
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  margin-top: 1.2em;
+}
+.downLine h1{
+  color: #000;
+  font-size: 1.4em;
+}
+
+.downLine h2 {
+  color: #000;
+  padding-top: 1.2rem;
+}
+.btn {
+  width: 170px;
+  padding: 10px;
+  color: black;
+  font-weight: 800;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: aquamarine;
+  border:none;
+  cursor: pointer;
+}
